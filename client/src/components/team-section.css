@@ -1,0 +1,127 @@
+.team-section {
+  padding: 5rem 0;
+  background: #f8fafc;
+}
+
+.team-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.team-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.team-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #22223b;
+  margin-bottom: 1rem;
+}
+
+.team-subtitle {
+  font-size: 1.25rem;
+  color: #64748b;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.team-card {
+  background: #fff;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(34, 197, 94, 0.08), 0 1.5px 6px rgba(0,0,0,0.04);
+  transition: box-shadow 0.3s;
+  border: none;
+}
+
+.team-card:hover {
+  box-shadow: 0 8px 32px rgba(34,197,94,0.15), 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.team-card-gradient {
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-card-icon-bg {
+  width: 8rem;
+  height: 8rem;
+  background: rgba(255,255,255,0.18);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-card-content {
+  padding: 1.5rem;
+}
+
+.team-member-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #22223b;
+  margin-bottom: 0.5rem;
+}
+
+.team-member-role {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.team-member-reg,
+.team-member-student {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 0.25rem;
+}
+
+.team-member-desc {
+  color: #64748b;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.team-socials {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.team-social-btn {
+  background: none;
+  border: none;
+  color: #94a3b8;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.team-social-btn:hover,
+.team-social-btn:focus {
+  background: #e6f4ea;
+  color: #15803d;
+}

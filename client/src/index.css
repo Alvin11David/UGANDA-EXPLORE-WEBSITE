@@ -1,0 +1,3 @@
+/* Import our custom stylesheets */
+@import './styles/globals.css';
+@import './styles/components.css';

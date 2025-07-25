@@ -1,0 +1,199 @@
+HEY I NEED YOU  TO CREATE FOR ME A NICE PROJECT WEBSITE WITH THE FOLLOWING DETAILS
+
+PROJECT TITLE
+UGANDA EXPLORE 
+
+PROJECT DESCRIPTION
+Uganda Explore is a Flutter-based mobile application designed to showcase the beauty and diversity of Uganda’s tourism destinations. From majestic national parks to serene lakes and scenic mountains, the app offers users an immersive way to discover, explore, and interact with these attractions—virtually and physically.
+🔑 Core Features:
+•	🏠 Home Screen Dashboard:
+Features personalized greetings based on time of day, real-time weather information, and category filters (National Parks, Lakes, Mountains). Users can also access their saved favorites for quick reference.
+•	📍 Tourism Site Explorer:
+Each tourism site includes a detailed profile with rich descriptions, image galleries, location data, entry fees, nearby attractions, and cultural context. Users can bookmark favorites for future reference.
+•	🧭 Virtual AR Navigation:
+A cutting-edge AR interface provides directional guidance using the camera, compass, and geolocation data. Directional arrows, distance counters, and site labels enhance real-world discovery.
+•	🌍 Street View Integration:
+Seamless integration of Google Street View in WebView lets users take immersive 360° virtual tours before deciding to travel.
+•	💬 Smart Chat Assistant (AI):
+A conversational chatbot powered by AI helps users plan visits, get site recommendations, or ask for history, facts, and travel tips.
+•	🔐 User Authentication:
+Users can sign up, log in, and manage profiles using Firebase Authentication (Email/Password or Google Sign-In).
+•	🧑‍💼 Admin Dashboard:
+A powerful interface for content managers to add/edit/delete tourism site data in real-time via Firebase Firestore.
+•	🔎 Smart Search & Filtering:
+Users can search for sites by name, category, district, tags, or even interests (e.g., birdwatching, hiking, wildlife), with matching results rendered visually.
+🛠 Key Technologies Used:
+•	Flutter (Dart)
+•	Firebase (Firestore, Authentication)
+•	AR packages (camera, sensors, animations)
+•	Geolocator & Geocoding
+•	WebView for Street View
+•	Custom UI (Glassmorphism, gradients, animated transitions)
+________________________________________
+🎯 Target Audience:
+•	Local and international tourists
+•	Tour guides and travel planners
+•	Government agencies and tourism boards
+•	Educators and students learning about Uganda
+•	App admins managing tourism data
+________________________________________
+🌍 Project Goal:
+To create an intuitive, visually engaging, and informative platform that promotes Ugandan tourism, educates users, and allows for real-time exploration—blending physical travel with virtual technology.
+
+PROJECT STATEMENT
+Despite Uganda’s rich diversity of tourism attractions — including national parks, lakes, mountains, and cultural heritage sites — many of these gems remain underexplored and under-promoted, especially among local and regional travelers. Tourists often face challenges in discovering verified tourism destinations, getting accurate information, navigating to remote locations, or visualizing what a place truly looks like before visiting. There’s also limited digital infrastructure offering immersive and interactive virtual previews of Uganda's attractions.
+
+PROJECT GOALS
+The goal of the Uganda Explore app is to bridge this gap by offering a modern, user-friendly mobile platform that allows users to:
+•	Discover verified tourism sites in Uganda by category (e.g., parks, lakes, mountains).
+•	Explore these destinations through rich content, street-view previews, and virtual/AR guidance.
+•	Navigate to destinations using augmented reality and live metrics.
+•	Receive personalized recommendations and weather updates.
+•	Mark favorite places and Interact with the locations and receive smart recommendations via AI chat support.
+•	Manage content (for administrators) through an integrated dashboard.
+FEATURES OVERVIEW
+Home Screen
+•	Displays tourism categories (National Parks, Lakes, Mountains).
+•	Personalized greetings based on time of day (e.g., “Good Morning!”).
+•	Live weather updates via OpenWeatherMap API with icons adapting to current conditions.
+•	Search and filter buttons for easy discovery.
+•	Quick access to favorite sites for returning users.
+🔍 Search & Filter
+•	Powerful search for sites by name, location, or type.
+•	Advanced filters: category, region, popularity, and distance.
+•	Real-time results from Firebase Firestore with site previews (image + name + snippet).
+📍 Tourism Site Details Page
+•	Displays full site data: name, location, photos, description, entry fees, and activities.
+•	Scrollable image gallery with zoom and transitions.
+•	"Favorite" button to save preferred sites.
+•	Navigation option via Google Maps or Augmented Reality.
+💬 AI Chat Assistant
+•	Built-in chatbot for user support and tourism recommendations.
+•	Personalized suggestions like "What can I visit near Murchison Falls?"
+•	Integrated with GPT-style AI for rich, conversational answers.
+•	Smooth chat animations and modern chat UI.
+🌐 Virtual 360° Tours (Street View)
+•	Google Street View embedded inside a WebView.
+•	Users can preview tourism sites virtually before visiting.
+•	Offers immersive 360° experiences of landscapes and site environments.
+🧭 AR Navigation
+•	Augmented Reality-based navigation to guide users on-site.
+•	Real-time camera, compass, and geolocation integration.
+•	Displays directional arrows, site metadata, heading, speed, and distance.
+🔐 Authentication (Firebase Auth)
+•	Secure email/password registration and login.
+•	Google sign-in support for seamless onboarding.
+•	Session management via Firebase with real-time user sync.
+🔑 Password Recovery (OTP Flow)
+•	Forgot password? Users receive a One-Time Password via email.
+•	Simple and secure identity verification process.
+•	Access to change/reset password after successful OTP entry.
+📂 Favorites Management
+•	Users can save and manage favorite destinations.
+•	View all saved places in one centralized section.
+•	Favorites sync with user account across devices.
+📊 Admin Dashboard
+•	Admin-only access to add, update, or delete tourism sites.
+•	Dashboard built with modern UI for site management.
+•	Real-time Firestore updates reflect immediately across the app.
+•	Basic analytics: most viewed/favorited sites.
+🖼️ Image Gallery
+•	Each site has a scrollable, high-resolution gallery.
+•	Photos support zoom, full-screen, and smooth transitions.
+•	Showcases Uganda’s beauty visually to inspire visits.
+📱 Modern & Responsive UI
+•	Sleek design using glassmorphism, gradients, and animations.
+•	Fully responsive layout for phones and tablets.
+•	Interactive cards, haptic feedback, and clean navigation.
+📍 Location Services
+•	Fetches and shows user's current location and district.
+•	Provides personalized suggestions based on the user’s region.
+•	Used to calculate distance and routing for AR and Maps.
+TECHNOLOGIES USED
+Framework & Language
+•	Flutter (Dart): Main framework for building a beautiful, cross-platform mobile app (iOS and Android).
+☁️ Backend & Cloud Services
+•	Firebase Firestore: NoSQL cloud database for storing tourism site details, user profiles, and favorites.
+•	Firebase Authentication: Provides secure user sign-up, sign-in, and session management.
+📍 Location & Mapping
+•	Geolocator: Retrieves user’s GPS location, speed, altitude, and heading.
+•	Geocoding: Converts latitude/longitude to readable location names (e.g., districts).
+•	Flutter Compass: Retrieves device orientation to guide AR navigation.
+•	Google Maps JavaScript API: Enables Street View integration via WebView for virtual 360° tours.
+📷 AR & Camera
+•	Camera Plugin: Enables access to device camera for augmented reality navigation.
+•	AR Navigation (custom logic): Uses live camera, compass, and GPS to guide users with animated direction overlays.
+🌦️ Weather & External Data
+•	OpenWeatherMap API: Fetches live weather forecasts and temperature for each tourism site.
+•	OpenRouter (OpenAI) API: Integrates a conversational AI assistant for queries and recommendations.
+📲 UI & UX Enhancements
+•	WebView Flutter: Displays embedded web content (e.g., Google Street View).
+•	Shimmer: Provides loading animations for a smooth user experience while data is fetched.
+•	Glassmorphism/Gradient UI packages: Adds modern, elegant styling to buttons, cards, and screens.
+💾 Data Persistence
+•	Shared Preferences: Locally stores user favorites and session data across app sessions.
+📤 Communication
+•	EmailJS (Dashboard): Sends email notifications from admin dashboard (e.g., feedback, reports).
+HOW UGANDA EXPLORE WORKKS
+USER FLOW
+•  User Sign In / Registration
+Upon launching the app, users either sign in or register using their email and password via Firebase Authentication. New users can easily create an account, while returning users securely log in. Password recovery is supported through an OTP-based verification process.
+•  Home Screen & Personalization
+After successful login, users are welcomed with a personalized home screen featuring a friendly greeting based on the time of day, live local weather information, and clearly organized categories of tourism sites such as National Parks, Lakes, and Mountains.
+•  Browsing & Searching Tourism Sites
+Users can browse tourism categories or use the search functionality to find specific sites by name, location, or interest. The app fetches results dynamically from Firebase Firestore and displays them with vivid images and concise descriptions for quick exploration.
+•  Viewing Detailed Site Information
+Tapping on a tourism site opens a dedicated detail page showcasing high-resolution images, rich descriptions, exact location, entry fees, and key activities. Users can also mark sites as favorites for easy future access.
+•  Favorites Management
+Favorited sites are stored locally and synced with the user’s account, accessible in a dedicated favorites section. This feature helps users quickly revisit or plan trips around their preferred destinations.
+•  Virtual 360° Tours (Google Street View)
+For many sites, users can launch immersive 360° virtual tours via Google Street View embedded inside the app, offering a realistic preview of the terrain and surroundings before visiting physically.
+•  Augmented Reality (AR) Navigation
+Users can activate the AR navigation feature to receive real-time, on-screen guidance to their chosen tourism site. Using the device’s camera, compass, and GPS, animated arrows, distance counters, and progress bars guide users intuitively toward their destination.
+•  Weather & Location Metrics
+Throughout the app experience, users can view live weather updates and personal movement metrics such as speed, altitude, and heading to enhance safety and trip planning.
+•  AI Chat Assistant
+An integrated AI-powered chat assistant is available to answer questions, provide personalized recommendations, and assist users in discovering new attractions or planning their trips.
+ADMIN FLOW
+Admin Sign In
+The admin opens the app and signs in using their credentials.
+Access Admin Dashboard
+After authentication, the admin is redirected to the Admin Dashboard screen.
+View Tourism Sites List
+The dashboard displays a list of all tourism sites fetched from Firestore.
+Edit Site Details
+The admin selects a site and can view all its fields.
+By tapping an edit icon or field, the admin opens a dialog to update the value and type (e.g., text, timestamp, geopoint).
+Save Changes
+The admin confirms edits, and the updated data is saved back to Firestore.
+Add or Remove Sites
+The admin can add new tourism sites or delete existing ones from the dashboard.
+Review Changes
+All changes are reflected instantly in the dashboard and available to users in the app.
+Summary:
+Admin signs in → accesses dashboard → views and edits site data → saves changes → manages site list.
+
+INSTALLATION INSTRUCTIONS
+If you want to clone and test the Uganda Explore Flutter app, follow these steps:
+1. Open the PC terminal.
+2. git clone https://github.com/Alvin11David/UGANDA-EXPLORE.git
+3. cd uganda_explore
+4. flutter pub get
+5. flutter run
+6. You can now sign in/up and use the Uganda Explore features.
+
+GITHUB REPOSITORY LINK
+https://github.com/Alvin11David/UGANDA-EXPLORE.git
+
+FIGMA LINK
+https://www.figma.com/design/oMWnBgFv8tLGDjehlnOQkr/EXPLORE-UGANDA-MOBILE-UI?node-id=0-1&t=seNDCVfZe0nKlRXC-1
+
+TEAM MEMBERS
+| Name                         | Registration Number | Student Number | Role       |
+|-----------------------------|---------------------|----------------|------------|
+| WALUUBE ALVIN DAVID         | 24/U/11805/PS       | 2400711805     | FULL STACK |
+| SSEBYALA DENIS TENDO        | 24/U/11123/PS       | 2400711123     | FULL STACK |
+| MULEMA BLAISE DAVIS         | 24/U/0763           | 2400700763     | FRONTEND   |
+| NAMULI MARTINA DANIELLA     | 23/U/14837/EVE      | 2300714837     | FRONTEND   |
+| NANKINGA RONITAH            | 24/U/24540/PS       | 2400724540     | FRONTEND   |
+ CREATE SPACE FOR Screenshots, Demos AND APK Download

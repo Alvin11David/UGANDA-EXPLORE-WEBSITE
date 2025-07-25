@@ -1,0 +1,101 @@
+.contact-section {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+}
+
+.contact-container {
+  max-width: 86rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.contact-card {
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 6px 32px rgba(16, 24, 40, 0.08);
+  border: none;
+}
+
+.contact-card-content {
+  padding: 2.5rem;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #15803d;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.contact-list {
+  list-style: decimal inside;
+  font-size: 1.1rem;
+  color: #334155;
+  margin-bottom: 2rem;
+  padding-left: 0;
+}
+
+.contact-list li {
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+}
+
+.contact-code {
+  font-family: 'Fira Mono', 'Menlo', 'Monaco', monospace;
+  background: #e0f2fe;
+  color: #15803d;
+  padding: 0.25rem 0.6rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin-left: 0.25rem;
+  box-shadow: 0 1px 4px rgba(21, 128, 61, 0.07);
+}
+
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  border: 2px solid #15803d;
+  color: #15803d;
+  background: #e0f2fe;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 
+    background 0.2s,
+    color 0.2s,
+    border-color 0.2s,
+    box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(21, 128, 61, 0.07);
+}
+
+.contact-btn.figma {
+  border-color: #a21caf;
+  color: #a21caf;
+  background: #f3e8ff;
+  box-shadow: 0 2px 8px rgba(162, 28, 175, 0.07);
+}
+
+.contact-btn:hover {
+  background: #15803d;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(21, 128, 61, 0.12);
+}
+
+.contact-btn.figma:hover {
+  background: #a21caf;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(162, 28, 175, 0.12);
+}
