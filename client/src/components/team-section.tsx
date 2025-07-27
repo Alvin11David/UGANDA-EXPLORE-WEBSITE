@@ -164,9 +164,9 @@ export function TeamSection() {
                   >
                     {member.role}
                   </p>
-                  <p className="team-member-reg">Reg: {member.regNumber}</p>
+                  <p className="team-member-reg">Registration Number: {member.regNumber}</p>
                   <p className="team-member-student">
-                    Student: {member.studentNumber}
+                    Student Number: {member.studentNumber}
                   </p>
                   <p className="team-member-desc">{member.description}</p>
                   <div className="team-socials">
