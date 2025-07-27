@@ -45,14 +45,12 @@ export function TeamSection() {
       regNumber: "24/U/11805/PS",
       studentNumber: "2400711805",
       description:
-        "Passionate about mobile development and creating impactful applications for tourism and education.",
+        "Passionate about mobile app development and creating impactful applications for tourism and education.",
       icon: User,
       gradient: "from-uganda-green to-emerald-500",
       color: "text-uganda-green",
       socials: [
-        { icon: SiGithub, href: "#" },
-        { icon: SiLinkedin, href: "#" },
-        { icon: SiX, href: "#" },
+        
       ],
     },
     {
@@ -61,14 +59,12 @@ export function TeamSection() {
       regNumber: "24/U/11123/PS",
       studentNumber: "2400711123",
       description:
-        "Expert in backend development and cloud infrastructure for scalable mobile applications.",
+        "Expert in backend development for scalable mobile applications.",
       icon: Server,
       gradient: "from-blue-500 to-cyan-600",
       color: "text-blue-600",
       socials: [
-        { icon: SiGithub, href: "#" },
-        { icon: SiStackoverflow, href: "#" },
-        { icon: SiLinkedin, href: "#" },
+        
       ],
     },
     {
@@ -82,9 +78,7 @@ export function TeamSection() {
       gradient: "from-purple-500 to-indigo-600",
       color: "text-purple-600",
       socials: [
-        { icon: SiDribbble, href: "#" },
-        { icon: SiBehance, href: "#" },
-        { icon: SiLinkedin, href: "#" },
+        
       ],
     },
     {
@@ -98,9 +92,7 @@ export function TeamSection() {
       gradient: "from-pink-500 to-rose-600",
       color: "text-pink-600",
       socials: [
-        { icon: SiDribbble, href: "#" },
-        { icon: SiBehance, href: "#" },
-        { icon: SiLinkedin, href: "#" },
+        
       ],
     },
     {
@@ -114,9 +106,7 @@ export function TeamSection() {
       gradient: "from-teal-500 to-green-600",
       color: "text-teal-600",
       socials: [
-        { icon: SiGithub, href: "#" },
-        { icon: SiLinkedin, href: "#" },
-        { icon: SiX, href: "#" },
+        
       ],
     },
   ];

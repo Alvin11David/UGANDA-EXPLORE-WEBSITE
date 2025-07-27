@@ -68,13 +68,6 @@ export function AboutSection() {
           <li>Educators and students learning about Uganda</li>
           <li>App admins managing tourism data</li>
         </ul>
-        <h3 className="about-subtitle">🌍 Project Goal:</h3>
-        <p className="about-desc">
-          To create an intuitive, visually engaging, and informative platform
-          that promotes Ugandan tourism, educates users, and allows for
-          real-time exploration—blending physical travel with virtual
-          technology.
-        </p>
         <h3 className="about-subtitle">Project Statement</h3>
         <p className="about-desc">
           Despite Uganda’s rich diversity of tourism attractions — including

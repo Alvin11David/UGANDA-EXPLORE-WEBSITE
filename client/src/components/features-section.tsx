@@ -59,7 +59,7 @@ export function FeaturesSection() {
     <section id="features" className="section" style={{ background: 'white' }}>
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Powerful Features</h2>
+          <h2 className="section-title">Features Overview</h2>
           <p className="section-description">
             Experience Uganda like never before with cutting-edge technology and intuitive design
           </p>

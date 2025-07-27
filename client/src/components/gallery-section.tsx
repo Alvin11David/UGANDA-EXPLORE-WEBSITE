@@ -17,8 +17,12 @@ const screenshots = [
   {
     image: homeScreen,
     title: "Home Screen",
-    description:
-      "• Displays tourism categories (National Parks, Lakes, Mountains).",
+   description: `The home screen welcomes users and displays a list of popular or featured tourist sites. Users can also use the search bar to find specific places by name or keywords.
+
+• Display of top places
+• Search bar with real-time suggestions
+• Categories or tags for filtering
+• Display of user’s favorite places`,
   },
   {
     image: placeDetails,
