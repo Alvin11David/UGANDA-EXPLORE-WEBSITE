@@ -41,8 +41,9 @@ export function Footer() {
               <span className="footer-title">Uganda Explore</span>
             </div>
             <p className="footer-description">
-              Makerere
-              University<br /> College of Computing School of Informatics Technology<br />
+              Makerere University
+              <br /> College of Computing School of Informatics Technology
+              <br />
               Department of Computer Science Kampala,Uganda
             </p>
             <div style={{ display: "flex", gap: "0.75rem" }}>
@@ -109,7 +110,9 @@ export function Footer() {
               <li>
                 <button
                   className="footer-btn"
-                  onClick={() => scrollToSection("download")}
+                  onClick={() => {
+                    window.location.href = "/app-release.apk";
+                  }}
                 >
                   Download
                 </button>
