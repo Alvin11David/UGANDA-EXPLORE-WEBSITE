@@ -10,6 +10,11 @@ import {
   SiBehance,
   SiStackoverflow,
 } from "react-icons/si";
+import blaise from "./group/blaise.jpg";
+import alvin from "./group/alvin.jpg";
+import denis from "./group/denis.jpg";
+import ronitah from "./group/ronitah.jpg";
+import martina from "./group/martina.jpg";
 
 type GradientKey =
   | "from-uganda-green to-emerald-500"
@@ -31,7 +36,7 @@ interface TeamMember {
   regNumber: string;
   studentNumber: string;
   description: string;
-  icon: React.ElementType;
+  image: string;
   gradient: GradientKey;
   color: ColorKey;
   socials: { icon: React.ElementType; href: string }[];
@@ -46,12 +51,10 @@ export function TeamSection() {
       studentNumber: "2400711805",
       description:
         "Passionate about mobile app development and creating impactful applications for tourism and education.",
-      icon: User,
+      image: alvin,
       gradient: "from-uganda-green to-emerald-500",
       color: "text-uganda-green",
-      socials: [
-        
-      ],
+      socials: [],
     },
     {
       name: "SSEBYALA DENIS TENDO",
@@ -60,12 +63,10 @@ export function TeamSection() {
       studentNumber: "2400711123",
       description:
         "Expert in backend development for scalable mobile applications.",
-      icon: Server,
+      image: denis,
       gradient: "from-blue-500 to-cyan-600",
       color: "text-blue-600",
-      socials: [
-        
-      ],
+      socials: [],
     },
     {
       name: "MULEMA BLAISE DAVIS",
@@ -74,12 +75,10 @@ export function TeamSection() {
       studentNumber: "2400700763",
       description:
         "Specializes in creating intuitive and beautiful user experiences for mobile applications.",
-      icon: Palette,
+      image: blaise,
       gradient: "from-purple-500 to-indigo-600",
       color: "text-purple-600",
-      socials: [
-        
-      ],
+      socials: [],
     },
     {
       name: "NAMULI MARTINA DANIELLA",
@@ -88,12 +87,10 @@ export function TeamSection() {
       studentNumber: "2300714837",
       description:
         "Creative designer focused on user interface and user experience design for mobile platforms.",
-      icon: Palette,
+      image: martina,
       gradient: "from-pink-500 to-rose-600",
       color: "text-pink-600",
-      socials: [
-        
-      ],
+      socials: [],
     },
     {
       name: "NANKINGA RONITAH",
@@ -102,12 +99,10 @@ export function TeamSection() {
       studentNumber: "2400724540",
       description:
         "Frontend specialist with expertise in responsive design and modern web technologies.",
-      icon: Palette,
+      image: ronitah,
       gradient: "from-teal-500 to-green-600",
       color: "text-teal-600",
-      socials: [
-        
-      ],
+      socials: [],
     },
   ];
 
@@ -151,7 +146,17 @@ export function TeamSection() {
                   style={{ background: gradients[member.gradient] }}
                 >
                   <div className="team-card-icon-bg">
-                    <member.icon style={{ color: "#fff" }} size={48} />
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="team-member-img"
+                      style={{
+                        width: 128,
+                        height: 128,
+                        borderRadius: "50%",
+                        objectFit: "cover",
+                      }}
+                    />
                   </div>
                 </div>
                 <div className="team-card-content">
@@ -164,7 +169,9 @@ export function TeamSection() {
                   >
                     {member.role}
                   </p>
-                  <p className="team-member-reg">Registration Number: {member.regNumber}</p>
+                  <p className="team-member-reg">
+                    Registration Number: {member.regNumber}
+                  </p>
                   <p className="team-member-student">
                     Student Number: {member.studentNumber}
                   </p>
@@ -178,7 +185,7 @@ export function TeamSection() {
                           // These would link to actual social profiles
                           console.log(`Social link clicked for ${member.name}`);
                         }}
-                       aria-label={member.name + " social link"}
+                        aria-label={member.name + " social link"}
                       >
                         <social.icon size={16} />
                       </button>
