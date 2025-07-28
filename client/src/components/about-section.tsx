@@ -1,9 +1,11 @@
 import "./about-section.css";
+import demoVideo from "./group/UGANDA EXPLORE DEMO.mp4";
 
 export function AboutSection() {
   return (
     <section id="about" className="about-section">
       <div className="about-container">
+        
         <h2 className="about-title">Core Features</h2>
         <ul className="about-list">
           <li>
@@ -102,6 +104,22 @@ export function AboutSection() {
             Manage content (for administrators) through an integrated dashboard.
           </li>
         </ul>
+        <div className="about-demo-row" style={{ display: "flex", alignItems: "center", gap: "2rem", marginBottom: "2rem" }}>
+          <video
+            src={demoVideo}
+            controls
+            width={320}
+            style={{ borderRadius: "1rem", boxShadow: "0 2px 16px rgba(0,0,0,0.12)" }}
+          />
+          <div>
+            <h2 className="about-demo-title">Uganda Explore Demo</h2>
+            <p className="about-demo-desc">
+              Experience a preview of Uganda Explore in action! <br />
+              This demo showcases the app’s intuitive interface, AR navigation, virtual tours, and smart recommendations. 
+              Discover how our platform makes exploring Uganda’s top destinations easier, more interactive, and visually engaging for every traveler.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
