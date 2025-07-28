@@ -67,15 +67,22 @@ export function HeroSection() {
                     background: "var(--uganda-yellow)",
                     color: "var(--charcoal)",
                   }}
-                  onClick={() =>
+                  onClick={() => {
+                    // Optional: Scroll first
                     document
                       .getElementById("download")
-                      ?.scrollIntoView({ behavior: "smooth" })
-                  }
+                      ?.scrollIntoView({ behavior: "smooth" });
+
+                    // Trigger APK download
+                    setTimeout(() => {
+                      window.location.href = "/app-release.apk"; // Make sure this path is correct
+                    }, 500); // Wait half a second after scroll
+                  }}
                 >
                   <Download style={{ marginRight: "0.5rem" }} size={20} />
                   Download App
                 </button>
+
                 <button
                   className="btn btn-lg btn-outline"
                   style={{

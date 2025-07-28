@@ -82,7 +82,7 @@ export function Navigation() {
                 <button
                   onClick={() => scrollToSection("download")}
                   className="btn btn-primary"
-                  style={{ marginTop: '1rem' }}
+                  style={{ marginTop: "1rem" }}
                 >
                   Download
                 </button>
