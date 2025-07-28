@@ -54,7 +54,9 @@ export function Navigation() {
               </button>
             ))}
             <button
-              onClick={() => scrollToSection("download")}
+              onClick={() => {
+                    window.location.href = "/app-release.apk";
+                  }}
               className="btn btn-primary"
             >
               Download
